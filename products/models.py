@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 class Category(models.Model):
 
     class Meta:
@@ -29,4 +30,4 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return self.title
