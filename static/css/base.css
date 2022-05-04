@@ -49,7 +49,11 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #E04D01 !important;
+}
+
+.logo-font {
+    font-weight: bold;
 }
 
 .border-black {
